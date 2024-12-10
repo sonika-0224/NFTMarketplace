@@ -57,8 +57,7 @@ npm or yarn,
 Hardhat and
 MetaMask or other Ethereum wallet for interacting with the app) 
 
-Step 2:We will clone the app 
-git clone https://github.com/SonikaMeka/AdvanceBlockChainFinalProject.git
+Step 2:uncompress the zip or rar file and open in a IDE and run the following in the terminal.
 cd NFTSTORE
 
 STEP 3: Now, we will install all the dependencies required for the project
@@ -88,3 +87,4 @@ Result:
 Then open https://localhost:3000 with your browser 
 Connect your MetaMask wallet.
 Mint, buy, and sell NFTs directly from the application.
+# recipe-NFT-MarketPlace

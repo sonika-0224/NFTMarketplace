@@ -1,26 +1,4 @@
-### Team Members:
-1. Reethu Ravichandran 
-CWID: 833689169 
-Email: reethuravi2001@csu.fullerton.edu
-
-2. Sonika Meka 
-CWID: 884477845 
-Email: sonikam@csu.fullerton.edu
-
-3. Bhavya Meghana Chippada 
-CWID:829341148 
-Email: meghanachb@csu.fullerton.edu 
-
-4. Sri Varshika Pitchika 
-CWID: 814812558 
-Email: psrivarshika00@csu.fullerton.edu
-
-5. Safdar Ibadh Shaik 
-CWID: 875437477 
-Email: ibadh@csu.fullerton.edu
-
- 
-### Project Description: 
+ ### Project Description: 
 
 **NFTSTORE - Recipe NFT Marketplace**
 
@@ -48,7 +26,7 @@ For secure storage and seamless transactions, bridging culinary creativity with 
 
 This project showcases how blockchain technology can be used to create a secure ecosystem that values and compensates creators for their intellectual property in innovative ways.
 
-
+--------------------------
 
 ### Instructions on how to execute the project:
 
@@ -68,17 +46,17 @@ npm install
 
 Step 4:
 
-We have already have a .env file in this project you just need to update the necessary environment variables (e.g., Alchemy API URL, Private Key).
+We already have a .env file in this project. You just need to update the necessary environment variables (e.g., Alchemy API URL, Private Key).
 
 
 Deployment:
-1.compiling the contracts
+1. compiling the contracts
 npx hardhat compile
 
-2.Deploying the contracts
+2. Deploying the contracts
 npx hardhat ignition deploy ./ignition/modules/Token.js --network sepolia
 
-3.Running the frontend:
+3. Running the frontend:
 cd client
 npm run dev
 
@@ -86,5 +64,5 @@ Result:
 
 Then open https://localhost:3000 with your browser 
 Connect your MetaMask wallet.
-Mint, buy, and sell NFTs directly from the application.
+Mint, buy and sell NFTs directly from the application.
 # recipe-NFT-MarketPlace
